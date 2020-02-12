@@ -1,0 +1,12 @@
+{
+  "name": "@elderbraum/eslint-config",
+  "version": "1.0.0",
+  "description": "My personal ESLint config",
+  "private": false,
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=6",
+    "babel-eslint": "^10.0.3"
+  }
+}

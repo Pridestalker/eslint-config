@@ -1,0 +1,25 @@
+module.exports = {
+  parser: 'babel-eslint',
+  env: {
+    browser: true,
+  },
+  rules: {
+    semi: ['error', 'always'],
+    quotes: ['error', 'single'],
+    'no-extra-parens': ['error', 'all'],
+    'template-curly-spacing': ['error', 'never'],
+    'sort-imports': ['error'],
+    'rest-spread-spacing': ['error'],
+    'prefer-template': ['error'],
+    'prefer-spread': ['error'],
+    'prefer-rest-params': 'error',
+    'prefer-const': 'error',
+    'no-var': 'error',
+    'no-useless-rename': 'error',
+    'no-duplicate-imports': 'error',
+    'no-dupe-class-members': 'error',
+    'no-const-assign': 'error',
+    'generator-star-spacing': ['error', 'before'],
+    'arrow-spacing': 'error',
+  },
+};
